@@ -5,7 +5,7 @@ Version:	1.1
 Release:	1
 License:	GPL
 Group:		Applications/Publishing
-URL:		http://wordpress.org/extend/plugins/google-analytics-for-wordpress/
+URL:		http://netweblogic.com/wordpress/plugins/meta-tag-manager
 # Use DF or something. On each download it has new md5.
 # Source0:	http://downloads.wordpress.org/plugin/meta-tag-manager.zip
 Source0:	http://execve.pl/PLD/meta-tag-manager.zip#/meta-tag-manager-%{version}.zip
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		plugindir		%{pluginsdir}/%{plugin}
 
 %description
-imple plugin which allows you to add custom meta tags that will show
+Simple plugin which allows you to add custom meta tags that will show
 across all pages on your blog or on the homepage only.
 
 %prep
